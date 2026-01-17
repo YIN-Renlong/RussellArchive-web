@@ -58,7 +58,9 @@ Per the course rules, the **Official ZIP Submission** (containing the Windows `.
 *   **5(b) Dynamic Dialogue:** Dialogue is constructed via interpolation (e.g., `[location_text]`, `[context_text]`) fetched directly from the SQL/JSON data.
 *   **5(c) Branching Paths:** The user makes choices that increment `logic_score` or `passion_score`, leading to **3 distinct endings** (The Logician, The Radical, The Paradox).
 *   **5(d) Structure:** Clear start screen, a central interview loop, and a definitive conclusion screen.
-*   **5(e) Function:** Implemented `emotion_color(text, tone)` to dynamically colorize text based on the sentiment of the SQL data (e.g., "Sad" = Blue, "Proud" = Gold).
+*   **5(e) Functions (Calculation & Formatting):** I implemented two distinct functions to satisfy this requirement:    
+    1. `get_russell_age(year)`: Calculates the character's biological age and vital status based on the selected year.    
+    2. `emotion_color(text, tone)`: Dynamically formats dialogue color based on sentiment (e.g., "Sad" = Blue, "Proud" = Gold).
 *   **5(f) New Element:** I implemented **two** features not covered in class:
     1. **Screen Language (UI):** Custom timeline_ui dashboard with vbox/hbox layouts and hover states.
     2. **Dynamic Asset Loading:** Used the scene expression statement to inject variable filenames (e.g., "bg_" + current_year) into the visual flow at runtime.
@@ -72,11 +74,14 @@ Per the course rules, the **Official ZIP Submission** (containing the Windows `.
 ### Instruction 7: Specific SQL Constraints
 
 *   **7(a) Join with 3-4 Tables:** The main game mechanism uses a **4-Table Join** (Events + Locations + Works + People) to create a comprehensive snapshot of a specific year.
-*   **7(b) Aggregation Function:** Used `COUNT` and `GROUP BY` to determine the "Mood of the Decade" and the "Most Visited City".
+*   **7(b) Aggregation Functions:** I implemented multiple aggregation types:
+    *   `COUNT` with `GROUP BY`: To determine the "Most Visited City" (`top_city`).
+    *   `AVG`: To calculate the "Average Relationship Duration" (`avg_love`).
 *   **7(c) Aggregation with HAVING:** The function `get_obsessions` uses `HAVING count > {min}` to identify genres Russell wrote about most frequently.
-*   **7(d) Element Not Covered in Class:**
+*   **7(d) Elements Not Covered in Class:**
     *   **Temporal Joins:** I used `JOIN ... ON year BETWEEN start_year AND end_year` to link People to Events based on time ranges rather than fixed IDs.
-    *   **CASE WHEN:** Used to dynamically categorize "Peace" vs "War" status based on the year.
+    *   **CASE WHEN:** Used to dynamically categorize "Peace" vs "War" status.
+    *   **In-Query Calculation:** Performed math operations directly in the SELECT clause (`end_year - start_year`) to derive data for the "Longest Relationship" logic.
 
 ---
 
