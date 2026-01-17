@@ -62,8 +62,8 @@ Per the course rules, the **Official ZIP Submission** (containing the Windows `.
     1. `get_russell_age(year)`: Calculates the character's biological age and vital status based on the selected year.    
     2. `emotion_color(text, tone)`: Dynamically formats dialogue color based on sentiment (e.g., "Sad" = Blue, "Proud" = Gold).
 *   **5(f) New Element:** I implemented **two** features not covered in class:
-    1. **Screen Language (UI):** Custom timeline_ui dashboard with vbox/hbox layouts and hover states.
-    2. **Dynamic Asset Loading:** Used the scene expression statement to inject variable filenames (e.g., "bg_" + current_year) into the visual flow at runtime.
+    1. **Screen Language (UI):** Custom `timeline_ui` dashboard with vbox/hbox layouts and hover states.
+    2. **Dynamic Asset Loading:** Used the `scene expression` statement to inject variable filenames (e.g., "bg_" + current_year) into the visual flow at runtime.
 *   **5(g) Imagery:** Dynamic backgrounds change based on the year selected (1910 vs 1950).
 
 ### Instruction 6: Query Complexity
