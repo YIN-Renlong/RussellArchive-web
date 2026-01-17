@@ -59,7 +59,9 @@ Per the course rules, the **Official ZIP Submission** (containing the Windows `.
 *   **5(c) Branching Paths:** The user makes choices that increment `logic_score` or `passion_score`, leading to **3 distinct endings** (The Logician, The Radical, The Paradox).
 *   **5(d) Structure:** Clear start screen, a central interview loop, and a definitive conclusion screen.
 *   **5(e) Function:** Implemented `emotion_color(text, tone)` to dynamically colorize text based on the sentiment of the SQL data (e.g., "Sad" = Blue, "Proud" = Gold).
-*   **5(f) New Element:** Implemented **Screen Language (UI)** to create the `timeline_ui` dashboard, using vbox/hbox layouts and hover-state buttons, which was not covered in class.
+*   **5(f) New Element:** I implemented **two** features not covered in class:
+    1. **Screen Language (UI):** Custom timeline_ui dashboard with vbox/hbox layouts and hover states.
+    2. **Dynamic Asset Loading:** Used the scene expression statement to inject variable filenames (e.g., "bg_" + current_year) into the visual flow at runtime.
 *   **5(g) Imagery:** Dynamic backgrounds change based on the year selected (1910 vs 1950).
 
 ### Instruction 6: Query Complexity
