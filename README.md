@@ -91,5 +91,5 @@ Per the course rules, the **Official ZIP Submission** (containing the Windows `.
 *In accordance with university guidelines:*
 
 *   **Tools:** Google Gemini 3.0 Pro Preview; Microsoft Azure OpenAI GPT-Image-1 API.
-*   **Usage:** Gemini used as a coding assistant for Python/SQL syntax debugging and JSON formatting. Azure OpenAI used to generate abstract background assets.
+*   **Usage:** Gemini used as a coding assistant for Python/SQL syntax debugging and JSON formatting. Azure OpenAI used to generate background assets.
 *   **Verification:** I personally verified all code logic, query results, and historical facts.
