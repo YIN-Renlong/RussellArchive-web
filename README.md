@@ -19,7 +19,7 @@
 ## Important Note: Official Submission
 
 This GitHub repository is a **supplementary Web Build** created to allow immediate review in a browser. 
-Per the course rules, the **Official ZIP Submission** (containing the Windows `.exe`, PDF Notebook, and SQL dump) has been submitted via the standard portal.
+Per the course rules, the **Official ZIP Submission** (containing the Windows `.exe`, PDF Notebook, SQL dump, and clean `.ipynb` source) has been submitted via the standard portal.
 
 ---
 
