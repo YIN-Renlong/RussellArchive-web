@@ -7,6 +7,7 @@
 ![Status](https://img.shields.io/badge/Compliance-100%25-green)
 
 **Course:** Information Structures and Implications (Professor Adalberto Simeone)
+
 **Author:** YIN Renlong 
 
 ## Play Online (Web Version)
