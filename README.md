@@ -44,7 +44,7 @@ Per the course rules, the **Official ZIP Submission** (containing the Windows `.
 
 *   **Requirement:** Story described in 10 lines; minimum 10 SQL queries.
 *   **Story:** The user acts as an Archivist reconstructing the fragmented memory of Bertrand Russell. Traversing a non-linear timeline (1910-1950), the user retrieves database snapshots exposing the tension between Russell’s pursuit of Logic and his chaotic Passion. The player must analyze these data points to render a final verdict on his legacy.
-*   **Compliance:** The project executes **18 distinct dynamic SQL queries** (exceeding the minimum of 10) to generate the timeline, war status, and final statistical conclusion.
+*   **Compliance:** I have implemented **10 distinct dynamic SQL query definitions** (encapsulated in Python functions). While the single-person allowance was 7 queries, I chose to implement the full 10 to meet the original standard. These are executed iteratively (totaling 18+ executions) to generate the final dataset.
 
 ### Instruction 4: Technical Workflow (Python to Ren'Py)
 
