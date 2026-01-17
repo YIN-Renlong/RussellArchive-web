@@ -12,7 +12,7 @@
 
 ## Play Online (Web Version)
 
-**[Launch The Russell Archive in your browser: yin-renlong.github.io/RussellArchive-web/](https://yin-renlong.github.io/RussellArchive-web/)**
+**[Launch in your browser: yin-renlong.github.io/RussellArchive-web/](https://yin-renlong.github.io/RussellArchive-web/)**
 
 ---
 
