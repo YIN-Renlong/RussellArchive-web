@@ -1,5 +1,7 @@
 # The Russell Archive: A Data-Driven Visual Novel
 
+![The Russell Archive Cover](The-Russell-Archive.png) 
+
 ![Ren'Py](https://img.shields.io/badge/Engine-Ren'Py-ff69b4)
 ![Python](https://img.shields.io/badge/Code-Python%20%7C%20SQL-blue)
 ![Status](https://img.shields.io/badge/Compliance-100%25-green)
