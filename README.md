@@ -66,7 +66,8 @@ Per the course rules, the **Official ZIP Submission** (containing the Windows `.
 
 ### Instruction 6: Query Complexity
 
-*   **Compliance:** Queries avoid triviality (`SELECT *` is never used alone). They are encapsulated in Python functions to maintain clean logic while handling complex joins.
+*   **Compliance with 6(a) (No Over-simplification):** Strict adherence to the restriction against trivial queries. `SELECT *` is never used. Every query serves a specific analytical purpose, utilizing constraints (`WHERE`, `LIMIT`), aggregations (`COUNT`, `AVG`), or calculations (e.g., `end_year - start_year` inside the SELECT clause).
+*   **Compliance with 6(b) (No Over-complication):** Complexity is managed through modular design. All raw SQL logic is encapsulated within reusable Python functions (e.g., `get_war_status(year)`), ensuring the main data pipeline remains readable and efficient without unnecessary nesting.
 
 ### Instruction 7: Specific SQL Constraints
 
